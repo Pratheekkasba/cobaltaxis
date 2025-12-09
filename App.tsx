@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import LogoLoop from './components/LogoLoop';
-import Services from './components/Services';
-import ScrollVelocity from './components/ScrollVelocity';
-import Projects from './components/Projects';
-import Founders from './components/Founders';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import BrochureModal from './components/BrochureModal';
-import Chatbot from './components/Chatbot';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import LogoLoop from '@/components/LogoLoop';
+import Services from '@/components/Services';
+import ScrollVelocity from '@/components/ScrollVelocity';
+import Projects from '@/components/Projects';
+import Founders from '@/components/Founders';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+import BrochureModal from '@/components/BrochureModal';
+import Chatbot from '@/components/Chatbot';
 import { 
   TwitterIcon, 
   LinkedInIcon, 
@@ -25,7 +25,7 @@ import {
   FramerMotionIcon,
   ViteIcon,
   SvelteIcon
-} from './components/icons';
+} from '@/components/icons';
 
 const techLogos = [
     { node: <ReactIcon />, title: 'React' },
