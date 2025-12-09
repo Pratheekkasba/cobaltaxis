@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar.tsx';
-import Hero from './components/Hero.tsx';
-import About from './components/About.tsx';
-import LogoLoop from './components/LogoLoop.tsx';
-import Services from './components/Services.tsx';
-import ScrollVelocity from './components/ScrollVelocity.tsx';
-import Projects from './components/Projects.tsx';
-import Founders from './components/Founders.tsx';
-import Contact from './components/Contact.tsx';
-import Footer from './components/Footer.tsx';
-import BrochureModal from './components/BrochureModal.tsx';
-import Chatbot from './components/Chatbot.tsx';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import LogoLoop from './components/LogoLoop';
+import Services from './components/Services';
+import ScrollVelocity from './components/ScrollVelocity';
+import Projects from './components/Projects';
+import Founders from './components/Founders';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import BrochureModal from './components/BrochureModal';
+import Chatbot from './components/Chatbot';
 import { 
   TwitterIcon, 
   LinkedInIcon, 
